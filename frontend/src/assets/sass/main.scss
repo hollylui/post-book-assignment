@@ -1,0 +1,17 @@
+@import "./bookList";
+@import "./form";
+
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+.inputForm {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 600px;
+  max-height: 400px;
+  margin: auto;
+}

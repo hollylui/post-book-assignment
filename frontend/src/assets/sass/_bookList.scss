@@ -1,0 +1,55 @@
+.bookList {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+
+  .bookListContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.book {
+  max-width: 300px;
+  max-height: 380px;
+  padding: 10px;
+  margin: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: left;
+  background-color: #ffdda99a;
+  border-radius: 10px;
+
+  .modify {
+    display: flex;
+    justify-content: space-between;
+
+    img {
+      width: 30px;
+    }
+
+    .deleteButton {
+      font-size: 1.6rem;
+      margin: 0;
+      font-weight: 700;
+    }
+
+    img,
+    .deleteButton {
+      cursor: pointer;
+    }
+  }
+
+  .number {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  div {
+    margin-bottom: 15px;
+    span {
+      font-weight: 700;
+    }
+  }
+}
